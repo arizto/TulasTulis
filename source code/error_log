@@ -1,0 +1,30 @@
+[17-Oct-2012 18:14:31] PHP Fatal error:  Call to undefined function  form_open() in /home/u320706013/public_html/diary/application/views/signin.php on line 40
+[18-Oct-2012 19:33:27] PHP Parse error:  syntax error, unexpected T_ELSE in /home/tulastul/public_html/application/controllers/account.php on line 78
+[18-Oct-2012 19:34:50] PHP Parse error:  syntax error, unexpected T_ELSE in /home/tulastul/public_html/application/controllers/account.php on line 78
+[19-Oct-2012 11:22:36] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/tulastul/public_html/application/controllers/account.php on line 26
+[21-Oct-2012 08:15:14] PHP Fatal error:  Call to undefined function  form_open_multipart() in /home/tulastul/public_html/application/views/content_insert_view.php on line 31
+[21-Oct-2012 08:23:48] PHP Fatal error:  Call to undefined function  form_open_multipart() in /home/tulastul/public_html/application/views/content_insert_view.php on line 31
+[21-Oct-2012 08:30:55] PHP Fatal error:  Call to undefined function  form_open_multipart() in /home/tulastul/public_html/application/views/category_insert_view.php on line 30
+[21-Oct-2012 08:53:31] PHP Fatal error:  Call to undefined function  form_open_multipart() in /home/tulastul/public_html/application/views/category_insert_view.php on line 30
+[21-Oct-2012 09:14:02] PHP Fatal error:  Call to undefined function  form_open_multipart() in /home/tulastul/public_html/application/views/category_insert_view.php on line 30
+[21-Oct-2012 09:26:20] PHP Fatal error:  Call to undefined function  form_open_multipart() in /home/tulastul/public_html/application/views/content_insert_view.php on line 31
+[21-Oct-2012 12:49:48] PHP Parse error:  syntax error, unexpected T_OBJECT_OPERATOR, expecting ')' in /home/tulastul/public_html/application/models/crud_content.php on line 34
+[21-Oct-2012 12:50:46] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/tulastul/public_html/application/controllers/account.php on line 91
+[21-Oct-2012 13:05:48] PHP Fatal error:  Call to undefined method CI_Session::user_data() in /home/tulastul/public_html/application/controllers/testsession.php on line 7
+[21-Oct-2012 13:14:59] PHP Fatal error:  Call to undefined method CI_DB_mysql_result::where() in /home/tulastul/public_html/application/models/crud_category.php on line 31
+[21-Oct-2012 14:55:54] PHP Fatal error:  Call to a member function getaccountname() on a non-object in /home/tulastul/public_html/application/controllers/dashboard.php on line 17
+[21-Oct-2012 14:56:24] PHP Fatal error:  Call to undefined method Account_model::getaccountname() in /home/tulastul/public_html/application/controllers/dashboard.php on line 18
+[26-Oct-2012 11:09:24] PHP Fatal error:  Call to a member function getaccountname() on a non-object in /home/tulastul/public_html/application/controllers/category.php on line 16
+[26-Oct-2012 11:09:25] PHP Fatal error:  Call to a member function getaccountname() on a non-object in /home/tulastul/public_html/application/controllers/category.php on line 16
+[26-Oct-2012 11:09:40] PHP Fatal error:  Call to a member function getaccountname() on a non-object in /home/tulastul/public_html/application/controllers/category.php on line 16
+[26-Oct-2012 11:33:42] PHP Parse error:  syntax error, unexpected ',' in /home/tulastul/public_html/application/models/account_model.php on line 92
+[26-Oct-2012 11:34:47] PHP Parse error:  syntax error, unexpected $end in /home/tulastul/public_html/application/models/crud_content.php on line 1
+[26-Oct-2012 11:37:10] PHP Parse error:  syntax error, unexpected $end in /home/tulastul/public_html/application/models/crud_content.php on line 1
+[26-Oct-2012 11:37:14] PHP Parse error:  syntax error, unexpected $end in /home/tulastul/public_html/application/models/crud_content.php on line 1
+[26-Oct-2012 11:37:16] PHP Parse error:  syntax error, unexpected $end in /home/tulastul/public_html/application/models/crud_content.php on line 1
+[26-Oct-2012 11:37:45] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ';' or '{' in /home/tulastul/public_html/application/models/crud_content.php on line 10
+[26-Oct-2012 11:40:03] PHP Fatal error:  Using $this when not in object context in /home/tulastul/public_html/application/controllers/printsessiondata.php on line 2
+[26-Oct-2012 12:42:57] PHP Parse error:  syntax error, unexpected ';' in /home/tulastul/public_html/application/views/utama_view.php on line 3
+[29-Oct-2012 14:17:04] PHP Fatal error:  Call to undefined method Utama::is_logged_in() in /home/tulastul/public_html/application/controllers/utama.php on line 15
+[29-Oct-2012 14:37:14] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/tulastul/public_html/application/views/utama_view.php on line 15
+[29-Oct-2012 14:37:44] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/tulastul/public_html/application/views/utama_view.php on line 15

@@ -1,0 +1,1 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');class Printsessiondata extends CI_Controller {	public function index()	{		$this->load->view('printsessiondata');	}}/* End of file printsessiondata.php *//* Location: ./application/controllers/printsessiondata.php */

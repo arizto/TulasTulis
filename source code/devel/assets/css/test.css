@@ -1,0 +1,219 @@
+body{
+	background: url('../img/background/wood_1.png');
+}
+
+.account-details {
+}
+
+.account-details span {
+	display: block;
+}
+
+.account-details .account-name {
+	text-align:center;
+	font-size: 15px;
+	font-weight: 600;
+}
+.account-details .account-actions {
+	color: #BBB;
+	text-align:center;
+}
+
+.account-details a {
+	font-size: 11px;
+}
+
+.mini {
+  margin-top: 3px;
+  float: right;
+  list-style-type: none;
+  padding: 0;
+}
+.mini > li {
+  float: left;
+  margin-left: 20px;
+  background: #111111;
+  position: relative;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  border-radius: 3px 3px 3px 3px;
+  -webkit-box-shadow: 1px 1px 1px #101010, inset 1px 1px 0px 1px #0F0F0F;
+  -moz-box-shadow: 1px 1px 1px #101010, inset 1px 1px 0px 1px #0F0F0F;
+  box-shadow: 1px 1px 1px #101010, inset 1px 1px 0px 1px #0F0F0F;
+}
+.mini > li:hover {
+  background: #101010;
+}
+.mini > li.open {
+  margin-left: 18px;
+}
+.mini > li.open > a {
+  color: #080808;
+  background: #ffffff;
+  border: 1px solid #222222;
+  border-bottom: 0;
+}
+.mini > li.open > a img {
+  opacity: 1;
+  filter: alpha(opacity=1);
+}
+.mini > li.open > a:hover {
+  color: #080808;
+}
+.mini > li > a {
+  color: #888888;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 5px 8px 3px 8px;
+  display: block;
+  position: relative;
+  z-index: 1031;
+}
+.mini > li > a img {
+  margin-bottom: 2px;
+  margin-right: 2px;
+  opacity: 0.3;
+  filter: alpha(opacity=0.3);
+}
+.mini > li > a .label {
+  position: absolute;
+  top: -3px;
+  left: 93%;
+}
+.mini > li > a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+.mini > li > a:hover img {
+  opacity: 1;
+  filter: alpha(opacity=1);
+}
+
+
+.dropdown > .dropdown-menu.custom {
+  background: #ffffff;
+  border-color: #b3b3b3;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
+  -webkit-box-shadow: 0 0 10px #b3b3b3;
+  -moz-box-shadow: 0 0 10px #b3b3b3;
+  box-shadow: 0 0 10px #b3b3b3;
+  margin-top: -1px;
+}
+.dropdown > .dropdown-menu.custom.custom-dark {
+  border-color: #222222;
+  -webkit-box-shadow: 0 0 10px #222222;
+  -moz-box-shadow: 0 0 10px #222222;
+  box-shadow: 0 0 10px #222222;
+}
+.dropdown > .dropdown-menu.custom li {
+  float: none;
+}
+.dropdown > .dropdown-menu.custom li.custom {
+  *zoom: 1;
+  min-width: 350px;
+}
+.dropdown > .dropdown-menu.custom li.custom.custom-hidden {
+  display: none;
+}
+.dropdown > .dropdown-menu.custom li.custom:before,
+.dropdown > .dropdown-menu.custom li.custom:after {
+  display: table;
+  content: "";
+}
+.dropdown > .dropdown-menu.custom li.custom:after {
+  clear: both;
+}
+.dropdown > .dropdown-menu.custom li.custom:hover {
+  background: #ebebeb;
+}
+.dropdown > .dropdown-menu.custom li.custom .expand_custom {
+  padding: 5px 0;
+  text-align: center;
+  background: #e6e6e6;
+}
+.dropdown > .dropdown-menu.custom li.custom .expand_custom a {
+  font-weight: bold;
+}
+.dropdown > .dropdown-menu.custom li.custom .expand_custom a:hover {
+  text-decoration: underline;
+}
+.dropdown > .dropdown-menu.custom li.custom .title {
+  width: 250px;
+  padding: 5px 10px;
+  float: left;
+  font-weight: bold;
+  color:#000;
+}
+.dropdown > .dropdown-menu.custom li.custom .title span {
+  display: block;
+  font-size: 11px;
+  font-weight: normal;
+}
+
+.dropdown > .dropdown-menu.custom li.custom .title span a {
+  font-size: 12px;
+  color: #b94a48;
+   
+}
+
+
+.dropdown > .dropdown-menu.custom li.custom .action {
+  margin-top: 10px;
+  margin-right: 10px;
+  float: right;
+ 
+}
+.dropdown > .dropdown-menu.custom li.custom a {
+  display: inline-block;
+  padding: 0;
+  clear: none;
+  font-weight: normal;
+  line-height: 18px;
+  color: #333333;
+  white-space: nowrap;
+  
+}
+
+
+
+.dropdown > .dropdown-menu.custom li.custom a:hover {
+  background: none;
+  text-decoration: none;
+ 
+  
+}
+.dropdown > .dropdown-menu.custom li.custom a.btn-mini {
+  padding: 2px 4px;
+}
+.dropdown > .dropdown-menu.custom li.custom a.btn-mini img {
+  margin: 0;
+}
+.dropdown > .dropdown-menu.custom li.custom a.btn-mini:hover {
+  background: #e6e6e6;
+}
+.dropdown > .dropdown-menu.custom li.custom a img {
+  position: relative;
+  left: 0;
+  top: 0;
+  
+}
+.dropdown > .dropdown-menu.custom li a {
+  position: relative;
+    
+}
+.dropdown > .dropdown-menu.custom li a.fugue {
+  padding-left: 35px;
+}
+.dropdown > .dropdown-menu.custom li a img {
+  position: absolute;
+  display: block;
+  left: 10px;
+  top: 4px;
+  margin-right: 3px;
+}
+.dropdown > .dropdown-menu.custom li a:hover {
+  background: #b94a48;
+  
+}

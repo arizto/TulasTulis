@@ -1,0 +1,9 @@
+.face {
+	border-right: solid 1px #DEDEDE;
+	border-bottom: solid 1px #DEDEDE;
+	width: 130px;
+	height: 130px;
+	padding: 4px;
+	background-color: white;
+	margin: 10px 0px 5px 0px;
+}
